@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SecurePass</string>
+    <string name="instruction">Enter the length of password you want</string>
+    <string name="characters">8–16 characters</string>
+    <string name="generate">Generate</string>
+    <string name="action_settings">saved passwords</string>
+    <string name="todo">TODO</string>
+    <string name="username">username</string>
+    <string name="savewebsite">savewebsite</string>
+    <string name="save">Save</string>
+    <string name="textview3">Press any Button to continue and enter username</string>
+    <string name="username1">Username :</string>
+    <string name="password">password</string>
+    <string name="password1">Password :</string>
+    <string name="username2">username</string>
+    <string name="Insta">Instagram</string>
+    <string name="Fb">Facebook</string>
+    <string name="Amazon">Amazon</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Gmail">Gmail</string>
+    <string name="Pinterest">Pinterest</string>
+    <string name="Steam">Steam</string>
+    <string name="Link">Linkedin</string>
+    <string name="Spot">Spotify</string>
+</resources>

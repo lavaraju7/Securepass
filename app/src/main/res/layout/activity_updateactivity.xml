@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updateactivity">
+
+    <EditText
+        android:id="@+id/user_name1"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="236dp"
+        android:autofillHints="username"
+        android:background="@drawable/edit"
+        android:elevation="7dp"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:paddingStart="11dp"
+        android:paddingEnd="11dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:autofillHints="password"
+        android:background="@drawable/edit"
+        android:elevation="7dp"
+        android:fontFamily="sans-serif-medium"
+        android:hint="password"
+        android:inputType="text"
+        android:paddingStart="11dp"
+        android:paddingEnd="11dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/website1"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints="password"
+        android:background="@drawable/edit"
+        android:elevation="7dp"
+        android:fontFamily="sans-serif-medium"
+        android:hint="website"
+        android:inputType="text"
+        android:paddingStart="11dp"
+        android:paddingEnd="11dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password1" />
+
+    <Button
+        android:id="@+id/delete_button1"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Delete"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/website1"
+        app:layout_constraintVertical_bias="0.22" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
